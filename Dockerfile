@@ -1,4 +1,5 @@
-FROM python:3.11.8
+ARG tag=3.11.8
+FROM python:${tag}
 
 RUN apt update -y \
  && apt install -y tree \
