@@ -1,5 +1,8 @@
 # [dvc#10617] repro
 
+[Here][GHA] is a repro in GitHub Actions.
+
+You can also build a Docker image that repros the issue:
 ```bash
 git clone https://github.com/ryan-williams/dvc-push-bug && cd dvc-push-bug
 docker build -t dvc-push-bug .
@@ -89,3 +92,4 @@ outs:
 ```
 
 [dvc#10617]: https://github.com/iterative/dvc/issues/10617
+[GHA]: https://github.com/ryan-williams/dvc-push-bug/actions/runs/11767819018/job/32776934668#step:5:73
